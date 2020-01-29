@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lessonplan"
+        android:orientation="vertical"
+        tools:context=".LessonPlan">
+
+        <!--Adding fields that are in a common Lesson plan-->
+        <!--this app is about generating lesson plans that are prepared by teachers on a daily basis-->
+        <TextView
+            android:layout_marginLeft="14dp"
+            android:layout_width="345dp"
+            android:text="GENERATE  LESSON PLAN"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="3dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/subject"
+            android:id="@+id/subject"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/mtopic"
+            android:hint="MAJOR TOPIC"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="LESSON TOPIC"
+            android:inputType="text"
+            android:id="@+id/ltopic"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="LESSON NUMBER"
+            android:inputType="number"
+            android:id="@+id/lno"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="CLASS eg FORM 2 NORTH"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:id="@+id/form"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="OBJECTIVES"
+            android:gravity="start"
+            android:inputType="textMultiLine|textCapSentences"
+            android:minHeight="100dp"
+            android:textSize="15sp"
+            android:id="@+id/objectives"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="INTRODUCTION(FORMAT: ACTIVITY AND TIME,CONTENT,T/L METHODS,T/L RESOURCES)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="start"
+            android:minHeight="250dp"
+            android:textSize="15sp"
+            android:id="@+id/introduction"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="LESSON DEVELOPMENT(FORMAT: ACTIVITY AND TIME,CONTENT,T/L METHODS,T/L RESOURCES)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="start"
+            android:minHeight="250dp"
+            android:id="@+id/ldevelopment"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="LESSON CONCLUSION(FORMAT: ACTIVITY AND TIME,CONTENT,T/L METHODS,T/L RESOURCES)"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="start"
+            android:minHeight="100dp"
+            android:textSize="15sp"
+            android:id="@+id/lconclusion"
+            android:textColor="@android:color/black"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="150dp"
+            android:text="Export to PDF"
+            android:id="@+id/savetopdf"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>

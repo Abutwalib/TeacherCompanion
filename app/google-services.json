@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "187612741728",
+    "firebase_url": "https://teacher-companion-9db2f.firebaseio.com",
+    "project_id": "teacher-companion-9db2f",
+    "storage_bucket": "teacher-companion-9db2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187612741728:android:358d1b3367859d4895c305",
+        "android_client_info": {
+          "package_name": "com.example.teachercompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187612741728-1m279s0p801vlnrc9n2n3bf4vrfvq8ig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teachercompanion",
+            "certificate_hash": "e0e481886714cda405a16ae0685ac937d5af04c7"
+          }
+        },
+        {
+          "client_id": "187612741728-i79lmpkag7dnn3d8nq213c6678huotkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLvPcDy_Rp7zoe8hunmUGd353bdTqqa1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187612741728-i79lmpkag7dnn3d8nq213c6678huotkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

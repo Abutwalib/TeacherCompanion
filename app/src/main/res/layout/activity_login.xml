@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LOGIN">
+    <TextView
+        android:layout_marginLeft="14dp"
+        android:layout_width="345dp"
+        android:text="USER LOGIN"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="5dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_width="343dp"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23sp"
+        android:hint="YOUR USER NAME "
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:textColor="#098"
+        android:id="@+id/uname"
+        android:layout_height="47dp"/>
+    <EditText
+        android:layout_width="343dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23sp"
+        android:hint="@string/your_password"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        android:textColor="#098"
+        android:id="@+id/pass"
+        android:layout_height="47dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/login"
+        android:text="LOGIN"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/register"
+        android:background="@color/colorAccent"
+        android:text="IF NOT  REGISTERED CLICK HERE TO REGISTER"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

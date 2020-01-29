@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Profile">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/background"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="260dp"
+            android:layout_height="184dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-60dp"
+            app:srcCompat="@drawable/profile"
+            />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="313dp"
+            android:layout_height="50dp"
+            android:hint="Blessed Family"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold|italic"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="70dp"
+            android:textSize="21sp"
+            />
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="313dp"
+            android:layout_height="50dp"
+            android:hint="Laikipia, Kenya"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="19sp"
+            />
+        <Button
+            android:id="@+id/update"
+            android:layout_width="197dp"
+            android:layout_height="55dp"
+            android:background="@color/colorPrimary"
+            android:text="UPDATE PROFILE"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="115dp"/>
+
+    </LinearLayout>
+</ScrollView>

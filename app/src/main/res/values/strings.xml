@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Teacher Companion</string>
+    <string name="re">LOADING TEACHER COMPANION</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="your_tsc_number">YOUR TSC NUMBER</string>
+    <string name="your_id_number">YOUR ID NUMBER</string>
+    <string name="your_phone_number">YOUR PHONE NUMBER</string>
+    <string name="your_user_name">YOUR USER NAME</string>
+    <string name="your_password">YOUR PASSWORD</string>
+    <string name="patient_operations">TEACHER DASHBOARD</string>
+    <string name="subject">SUBJECT</string>
+</resources>
